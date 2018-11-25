@@ -1,0 +1,106 @@
+<DOCTYPE! html>
+<head>
+<title>Menu|Imtiaz</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+<style>
+ *{
+ 	margin: 0px;
+ 	padding:0px;
+  }
+	.main ul {
+              list-style: none;
+	         }
+	 .main ul li{
+                   width:250px;
+                   position: relative;
+                   background-color: rgb(80,80,80);
+                   float: left;
+                   font-size: 26px;
+	            }
+	   .main ul li a {
+	   	            text-decoration: none;
+	   	            color: white;
+	   	            padding:16px 0px 16px 48px;
+	   	            display: block;
+	                 }
+	   .main ul li a:hover{
+	   	             background-color:rgb(31,176,112);
+	                      }
+	   i{ 
+           margin-right:15px;
+	    }
+	   .main ul ul {
+	   	             position: absolute;
+	   	             display: none;
+	               }
+    .main ul li:hover ul{
+                        display: block;
+                        }
+    .main ul ul ul{
+                  margin-left: 250px;
+                  margin-top:-75px;    
+                  }
+    .main ul>li {
+                border-right: 2px solid gray;
+                }
+    .main ul ul ul {
+                  display: none;
+                  visibility: hidden;
+                   }
+    
+     .main>ul>li>ul>li:hover ul{
+                                 visibility: visible;
+                                 display:block;
+                               }
+    .main>ul>li {
+                 border-bottom:4px solid yellow;
+                }
+    
+    .main{
+            margin-top:12px;
+            margin-left:45px;
+         }
+
+</style>
+</head>
+<body>
+    <div class="main">
+      <ul>
+      	<li><a href="#"><i class="fa fa-home"> </i>Home</a></li>
+      	<li><a href="#"><i class="fa fa-user"> </i>User</a>
+
+             <ul>
+             	<li><a href="#"><i class="fa fa-plus"> </i>Add</a></li>
+             	<li><a href="#"><i class="fa fa-edit"> </i>Edit</a>
+                 
+                     <ul>
+                     <li><a href="#"><i class="fa fa-photo"> </i>Photo</a></li>
+                     <li><a href="#"><i class="fa fa-file-movie-o"> </i>Video</a></li>
+                     <li><a href="#"><i class="fa fa-codepen"> </i>Text</a></li>
+                     <li><a href="#"><i class="fa fa-paint-brush"> </i>Effects</a></li> 
+                     </ul>
+                 
+                 
+                 </li>
+             	<li><a href="#"><i class="fa fa-remove"> </i>Remove</a></li>
+
+
+             </ul>
+
+      	</li>
+      	<li><a href="#"><i class="fa fa-heart"> </i>Heart</a></li>
+      	<li><a href="#"><i class="fa fa-desktop"> </i>Web Design</a></li>
+      	<li><a href="#"><i class="fa fa-database"> </i>Database</a></li>
+      	
+
+      </ul>
+
+    </div>
+    
+    
+</body>
+
+
+</html>
